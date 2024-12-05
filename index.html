@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Drawing Game</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Graph Drawing Game</h1>
+    <button id="startButton">Start</button>
+    <button id="resetButton">Reset</button>
+    <img id="cursorImage" src="cursor.png" style="display:none;">
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <br>
+    <canvas id="xGraphCanvas" width="600" height="200"></canvas>
+    <canvas id="yGraphCanvas" width="600" height="200"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
